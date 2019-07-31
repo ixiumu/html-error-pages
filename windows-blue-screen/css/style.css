@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1600A5;
+  color: #ffffff;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 700;
+}
+
+a {
+  color: #5dade2;
+  text-decoration: none;
+}
+
+a::before {
+  content: "[";
+}
+
+a::after {
+  content: "]";
+}
